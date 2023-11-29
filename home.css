@@ -1,0 +1,91 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, #25251e, #3b443d);
+    color: white;
+    font-size: 120%;
+    transition: background-color 0.5s, color 0.5s; 
+    background-color: #fff; 
+    color: #333; /
+}
+
+#esquerda{
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+main{
+    float: left;
+    width: 70%;  
+}
+
+aside{
+    float: right;
+    width: 15%;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteudo{
+    text-align: justify;
+}
+
+h2{
+    border-left: 5px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: black
+}
+
+img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.links:link, .links:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover, .links:active{
+    text-decoration: underline;
+    color: #9a0707;
+}
+  body.dark-mode {
+    background-color: #333; 
+    color: #fff; /
+  }
+
+  .toggle-btn {
+    cursor: pointer;
+  }
+
+  .navbar-nav {
+      display: flex;
+      align-items: center;
+  }
+
+  .nav-item {
+      margin-right: 10px; 
+  }
+
+  .darkmode-button {
+      cursor: pointer;
+      color: #fff; 
+    
+  }
+  .button{
+    cursor: pointer;
+  }
